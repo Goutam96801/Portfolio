@@ -1,0 +1,96 @@
+[
+    {
+        "title":"SkillSphere",
+        "liveLink":"https://skillsphere-six.vercel.app/",
+        "githubLink":"https://github.com/Goutam96801/skillsphere-updated-",
+        "imagePreview":"./project_imgs/skillsphere.jpg",
+        "description":[
+            {
+                "des":"Build a web app where users can find top-rated tech videos and tutorials in the form of a course in a structured way that are availble on Youtube."
+            },
+            {
+                "des":"Enabling users to share projects, receive real-time feedback, and discuss doubts, creating a supportive learning community."
+            }
+        ]
+    },
+    {
+        "title":"Blogging Site",
+        "liveLink":"https://ill-kangaroo.cyclic.app/",
+        "githubLink":"https://github.com/Goutam96801/Blogging_Interface",
+        "description":[
+            {
+                "des":"Blog Interface useful for creations of Blogs, edit their Blogs as well as delete it."
+            }, 
+            {
+                "des":"Any user can read and share the blogs of other on social media."
+            }
+        ]
+    },
+    {
+        "title":"Task Management App",
+        "liveLink":"https://taskmanagements.netlify.app/",
+        "githubLink":"https://github.com/Goutam96801/Task-Management-Application",
+        "imagePreview":"./project_imgs/task-management.jpg",
+        "description":[
+            {
+                "des":"A frontend based website where user can save tasks in their local storage of the browser."
+            }
+        ]
+    },
+    {
+        "title":"Text Converter",
+        "liveLink":"https://textconverters.netlify.app/",
+        "githubLink":"https://github.com/Goutam96801/TextConverter",
+        "description":[
+            {
+                "des":"TextUtils is a simple web application built with React that allows users to manipulate and analyze text."
+            },
+            {
+
+                "des":"Convert text to uppercase and lowercase, clear text, copy text, text summary, text preview, reading time estimation."
+            }
+        ]
+    },
+    {
+        "title":"Sorting Visualizer",
+        "liveLink":"https://goutam96801.github.io/Sorting-visualizer",
+        "githubLink":"https://github.com/Goutam96801/Sorting-visualizer",
+        "description":[
+            {
+                "des":"A web application showcasing the inner workings of sorting algorithms."
+            },
+            {
+                "des":"Bubble sort, Selection sort, Insertion sort, Merge sort, Quick sort, Heap sort"
+            }
+        ]
+    },
+    {
+        "title":"CSE Helper",
+        "liveLink":"https://csehelper.netlify.app/",
+        "githubLink":"https://github.com/Goutam96801/CSEHELPER",
+        "description":[
+            {
+                "des":"An online educational platform to help students with study materials for the preparation of placements."
+            },
+            {
+                "des":"It helps young students to get answers for reference, especially in the engineering stream."
+            }
+        ]
+    },
+    {
+        "title":"Web-Chat",
+        "liveLink":"https://webchatintern.netlify.app/",
+        "githubLink":"https://github.com/Goutam96801/webchat",
+        "description":[
+            {
+                "des":"Real-time chat functionality powered by Firebase enables instant messaging."
+            },
+            {
+                "des":"Secure authentication system ensures privacy and data protection."
+                
+                },
+                {"des":"User-friendly interface built with ReactJS enhances seamless interaction."
+            }
+        ]
+    }
+]

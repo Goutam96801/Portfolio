@@ -1,0 +1,74 @@
+{
+  "technicalSkills": [
+    {
+      "title": "C++",
+      "percentage": 70,
+      "imageUrl": "./skill-imgs/c++.png"
+    },
+    {
+      "title": "Java",
+      "percentage": 40,
+      "imageUrl": "./skill-imgs/java.png"
+    },
+    {
+      "title": "JavaScript",
+      "percentage": 40,
+      "imageUrl": "./skill-imgs/java-script.png"
+    },
+    {
+      "title": "Python",
+      "percentage": 40,
+      "imageUrl": "./skill-imgs/python.png"
+    },
+    {
+      "title": "Reactjs",
+      "percentage": 80,
+      "imageUrl": "./skill-imgs/reactjs.png"
+    },
+    {
+      "title": "nodejs",
+      "percentage": 80,
+      "imageUrl": "./skill-imgs/nodejs.png"
+    },
+    {
+      "title": "MongoDB",
+      "percentage": 60,
+      "imageUrl": "./skill-imgs/mongodb.png"
+    },
+    {
+      "title": "Firebase",
+      "percentage": 60,
+      "imageUrl": "./skill-imgs/firebase-db.png"
+    },
+    {
+      "title": "HTML",
+      "percentage": 100,
+      "imageUrl": "./skill-imgs/html-5.png"
+    },
+    {
+      "title": "CSS",
+      "percentage": 80,
+      "imageUrl": "./skill-imgs/css-3.png"
+    }
+  ],
+  "professionalSkills" :
+  [
+   {
+    "title": "Creativity",
+      "percentage": 90
+   } ,
+   {
+    "title": "Communication",
+    "percentage": 70
+   },
+   {
+    "title": "Problem Solving",
+      "percentage": 90
+   },
+   {
+    "title": "Team Work",
+      "percentage": 100
+   }
+  ]
+}
+  
