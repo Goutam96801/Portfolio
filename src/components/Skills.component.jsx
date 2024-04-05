@@ -71,7 +71,7 @@ function ProfessionalSkill({ title, percentage }) {
 
 function MySkills() {
   return (
-    <div className="text-white min-h-screen p-10 mx-10">
+    <div className="text-white min-h-screen mx-10">
       <h1 className="text-center text-5xl font-bold mb-6 animate-[slideBottom_1s_ease-in-out]">My <span className='text-purple'>Skills</span></h1>
       <hr className="border-t-2 border-white w-full mb-10 animate-[slideBottom_1s_ease-in-out]"/>
       <div className="flex justify-between items-start gap-16">

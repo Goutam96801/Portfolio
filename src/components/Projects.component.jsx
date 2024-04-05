@@ -10,7 +10,7 @@ const ProjectComponent = () => {
   };
 
   return (
-    <div className="text-white min-h-screen p-10 sm:mx-10">
+    <div className="text-white min-h-screen sm:mx-10">
         <h1 className="text-center text-5xl font-bold mb-6 animate-[slideBottom_1s_ease-in-out]">My <span className='text-purple'>Projects</span></h1>
         <hr className="border-t-2 border-white w-full mb-10 animate-[slideRight_1s_ease-in-out]"/>
         <div className='flex gap-4 flex-col'>
