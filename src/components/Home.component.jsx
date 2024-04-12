@@ -5,7 +5,7 @@ const HomeComponent = () => {
 
   const handleResumeClick = (e) => {
     e.preventDefault();
-    const resumeLink = 'https://drive.google.com/file/d/1_nQG7dShNW6uLbVglA4jWpG-R_vIYwGX/view?usp=sharing'
+    const resumeLink = 'https://drive.google.com/file/d/1RVNbn2bgsOpc5zLvzzMRQxrMuMFakzzP/view?usp=sharing'
 
     window.open(resumeLink, '_blank')
   }
