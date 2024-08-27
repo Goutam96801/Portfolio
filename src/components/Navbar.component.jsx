@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, Outlet, useLocation } from "react-router-dom";
 import GithubImg from '../imgs/github.gif';
 
 import Logo from '../imgs/logo.png'
+import AOS from "aos";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,19 +15,25 @@ const Navbar = () => {
     setActiveLink(path);
   };
 
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  })
+
   return (
     <>
       <div className="navbar">
-        <nav className="grid gap-4">
-          <div className="hidden md:flex items-center justify-between space-x-2 text-2xl p-4">
-            <div className=" animate-[slideRight_1s_ease-in-out]">
+        <nav className="grid gap-4" data-aos="fade-down">
+          <div className=" hidden md:flex items-center justify-between space-x-2 md:text-2xl text-xl p-4">
+            <div className="">
               <Link to="/" onClick={() => handleLinkClick("/")}>
                 <span className={`font-semibold ${activeLink === "/" && "text-purple"} hover:opacity-70 duration-300`}>
                   <img src={Logo} className="" width={80}/>
                 </span>
               </Link>
             </div>
-            <div className=" animate-[slideTop_1s_ease-in-out] hidden md:flex items-center gap-4 justify-center space-x-2 text-2xl">
+            <div className=" hidden md:flex items-center gap-4 justify-center space-x-2 text-2xl" >
               <Link to="/" onClick={() => handleLinkClick("/")}>
                 <span className={`font-semibold ${activeLink === "/" && "text-purple"} hover:text-purple duration-300`}>Home</span>
               </Link>
@@ -52,9 +59,11 @@ const Navbar = () => {
             </div>
           </div>
           <div className="md:hidden mx-4 my-2 flex items-center justify-between">
-            <div>
+          <div className="">
               <Link to="/" onClick={() => handleLinkClick("/")}>
-                <span className="font-semibold">Goutam</span>
+                <span className={`font-semibold ${activeLink === "/" && "text-purple"} hover:opacity-70 duration-300`}>
+                  <img src={Logo} className="" width={80}/>
+                </span>
               </Link>
             </div>
             <button

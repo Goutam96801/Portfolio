@@ -38,48 +38,6 @@ export default {
           },
           boxShadow: {
             '3xl': '0 6px 60px -10px rgba(0, 0, 0, 0.5)',
-          },
-          keyframes:{
-            slideTop:{
-              '0%':{
-                transform:'translateY(100px)',
-                opacity:'0'
-              },
-              '100%':{
-                transform:'translateY(0px)',
-                opacity:'1'
-              }
-            },
-            slideRight:{
-              '0%':{
-                transform:'translateX(-100px)',
-                opacity:'0'
-              },
-              '100%':{
-                transform:'translateX(0px)',
-                opacity:'1'
-              }
-            },
-            slideBottom:{
-              '0%':{
-                transform:'translateY(-100px)',
-                opacity:'0'
-              },
-              '100%':{
-                transform:'translateY(0px)',
-                opacity:'1'
-              }
-            },
-            slideLeft:{
-              '0%':{
-                transform:'translateX(100px)',
-                opacity:'0'
-              },
-              '100%':{
-                transform:'translateX(0px)',
-                opacity:'1'
-              }
-            }
           }
       },
 

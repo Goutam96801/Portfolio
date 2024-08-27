@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import HomeProfileImg from "../imgs/goutam's.png"
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 const HomeComponent = () => {
 
@@ -10,12 +12,18 @@ const HomeComponent = () => {
     window.open(resumeLink, '_blank')
   }
 
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
+
   return (
     <div className="p-10 mx-20 mb-5">
       <div className="flex flex-col md:flex-row items-center md:items-center gap-10">
-        <div className="flex-1 animate-[slideRight_1s_ease-in-out]">
+        <div className="flex-1 " data-aos="fade-right">
   
-          <h1 className="text-6xl font-bold ">Hey There!</h1>
+          <h1 className="text-6xl font-bold " >Hey There!</h1>
           <h2 className="text-5xl font-bold mt-4">I Am <span className='text-purple'>Goutam Kumar Choudhary</span></h2>
           <hr className="border-t-2 border-purple w-full mt-4 mb-6"/>
           <span className=" bg-white text-black font-semibold px-2 py-1 rounded-full" variant="secondary">
@@ -28,7 +36,7 @@ const HomeComponent = () => {
             Resume
           </button>
         </div>
-        <div className="flex-1 flex justify-end animate-[slideLeft_1s_ease-in-out]">
+        <div className="flex-1 flex justify-end " data-aos="fade-left">
           <div className='w-200 h-200 bg-gradient-to-r from-purple via-red to-indigo p-[2px] rounded-full hover:shadow-3xl hover:shadow-purple_red duration-300'>
           <img
             alt="Goutam Choudhary"

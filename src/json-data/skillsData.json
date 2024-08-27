@@ -58,7 +58,7 @@
       "percentage": 90
    } ,
    {
-    "title": "Communication",
+    "title": "Leadership",
     "percentage": 70
    },
    {
@@ -67,6 +67,10 @@
    },
    {
     "title": "Team Work",
+      "percentage": 100
+   },
+   {
+    "title": "Good Listener",
       "percentage": 100
    }
   ]
